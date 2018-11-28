@@ -1,8 +1,10 @@
 # Validate if a given string can be interpreted as a decimal number.
 
-# check to see if string contains letters
-  # convert to integer is string does not contain letters
-  #
+# check if string contains only numbers
+  # if only numbers, true
+  # if not only numbers, check for exponent
+  #   if exponent, true
+  #   if not exponent false
 
 # Some examples:
 # "0" => true
@@ -23,16 +25,16 @@
 # @param {String} s
 # @return {Boolean}
 def is_number(s)
-  s.to_i
+  
 end
 
-# a = '0'
+a = '0'
 
-# is_number(a)
+p is_number(a)
 
-# b = '0.1'
+b = '0.1'
 
-# is_number(b)
+p is_number(b)
 
 c = 'abc'
 
