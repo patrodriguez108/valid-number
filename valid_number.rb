@@ -25,7 +25,7 @@
 # @param {String} s
 # @return {Boolean}
 def is_number(s)
-  
+  s.scan(/\D/)
 end
 
 a = '0'
